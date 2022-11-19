@@ -1,0 +1,146 @@
+/* ---------- typography --------- */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap');
+
+h1 {
+    font-family: "Fira Code";
+    font-weight: "600";
+    color: #83e88a;
+  }
+h2 {
+    font-family: "Noto Sans";
+    font-weight: "400";
+    color: #7abdf8
+  }
+h3 {
+    font-family: "Noto Sans";
+    font-weight: "100";
+    color: #aadaff
+  }
+p {
+    font-family: "Fira Code";
+    font-weight: "300";
+    color: #cad3db;
+  }
+a:link {
+  color: #cad3db
+  }
+
+/* .hello {
+    color: #befe9f;
+  }
+#world {
+    color: #cfa3df;
+  } */
+  @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+
+  /** ---------------------- GENERAL ---------------------- **/
+  
+  html {
+    min-height: 100%;
+  }
+  
+  body {
+    background: #202124;
+    color: #cad3db;
+    font-size: 1.5em;
+    font-family: "Quicksand";
+    background-attachment: fixed;
+  }
+  
+  /** ---------------------- NAVBAR ---------------------- **/
+  
+  .navbar {
+    z-index: 1;
+    background: #0d1116;
+    border-image: linear-gradient(
+      to right,
+      #83e88a,
+      #7abdf8,
+      #aadaff,
+      #7abdf8, 
+      #83e88a, 
+      #7abdf8,
+      #aadaff,
+      #7abdf8, 
+      #83e88a 
+    );
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 5px solid;
+    border-image-slice: 1;
+    width: 100%;
+    height: 10%
+  }
+  
+  .navbar-expand {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row nowrap;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+  }
+  
+  .nav-item {
+    margin-left: 4%;
+  }
+  
+  .nav-link {
+    font-family: "Noto Sans";
+    font-size: 2.25vw;
+    font-weight: bold;
+    color: #8d97a0;
+    text-shadow: 0px 0px 0px #e6e6e6;
+    letter-spacing: 0.15em;
+    margin-top: 0.5em;
+  }
+  
+  .nav-link:hover {
+    color: #cad3db;
+  }
+
+  img.logo {
+    max-height: 5vw;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+
+  img.slay_110 {
+    max-width: 100%;
+    max-height: auto;
+  }
+
+  img.sitterson {
+    max-width: 90%;
+    max-height: auto;
+    margin: auto;
+    display: block;
+  }
+
+  /* ---------Containers!!!!------------- */
+  div.workshop {
+    padding: 3%;
+    width: 80%;
+    border: solid 5px #aadaff;
+    margin: auto;
+    text-align: center;
+  }
+
+  div.map {
+    padding: 3%;
+    width: 50%;
+    border: solid 5px #aadaff;
+    margin: auto;
+    text-align: center;
+  }
+
+  div.welcome {
+    font-family: "Fira Code";
+    font-size: "bold";
+    font-size: 4wv;
+    color: #cad3db;
+    letter-spacing: 0.15em;
+    margin-top: 0.5em;
+    text-align: center;
+  }
